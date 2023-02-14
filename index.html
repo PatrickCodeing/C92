@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C92</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="fabric.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Add 'body_background' class in the body tag-->
+<body class="body_background">
+	<center>
+	<!-- Add bootstrap class 'btn-primary' to the h2 tag. -->
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<!-- Add bootstrap class 'btn-danger' to the div tag -->
+	<div id="head_info" class="btn-danger">
+		<!-- Add span tags inside the h3 tags -->
+		<h3>Current Width  = <span id="current_width">30</span></h3>
+		<h3>Current Height  = <span id="current_height">30</span></h3>
+	</div>
+	<h3 id="list">Instructions: shift + p is to make the next block  bigger
+		<br>
+		shift + m is to make the next block  smaller
+		and
+		w makes a wall
+		<br>
+		r makes a roof
+		and
+		d makes a dark green block
+		<br>
+		l makes a light green block
+		and
+		g makes a grass block 
+		<br>
+		t makes a trunk
+		and
+		u makes a unique block 
+		<br>
+		y makes a yellow wall
+		and
+		use arrow keys to move
+	</h3>
+	<canvas width="1000" height="600" id="myCanvas"></canvas>
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
